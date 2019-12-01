@@ -2446,7 +2446,7 @@ if dev is None:
     exit()
 if dev is not None:
     dev.set_configuration()
-    messagebox.showinfo("Welcome","Gen3 is a work in progress, This is a custom version, report issues at https://github.com/MrHDR/JoeyJoebags")
+    messagebox.showinfo("Welcome","Gen3 is a work in progress, This is a custom version, report issues at https://github.com/HDR/JoeyJoebags")
     main_CheckVersion()
 
 
