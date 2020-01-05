@@ -3,11 +3,20 @@ Custom version of the Joey software.
 
 
 ## Current Additions
+
 - Fixes dumping 32MB repros like the DV15 & PPP08
+
 - Dumping / Flashing completion percentage
+
 - Progress is now shown on a single line
+
 - Removed dotted lines at the top of all menu entries
 
+- A digitally signed driver
+
+# Installing the driver
+
+Unzip the "JoeyJoebags_Signed_Driver.zip" file and right click "Install Driver.bat" and run is as an admin, no reboots or disabling driver signature enforecement needed.
 
 # Compiling/Decompiling Windows Binaries
 
