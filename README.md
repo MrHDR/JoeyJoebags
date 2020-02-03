@@ -1,5 +1,6 @@
 # JoeyJoebags
-Custom version of the Joey software.
+Tools, firmware and software for the JoeyJoebags
+
 ### Firmware Flashing
 
 **Required Software:**
@@ -10,8 +11,6 @@ Custom version of the Joey software.
 - CP2102 (or any other device that can be used for flashing)
 
 #### Maple Mini
-
-I use a CP2102 for this, but other flashing tools should work.
 
 **Pinout:**
 
@@ -29,9 +28,32 @@ I use a CP2102 for this, but other flashing tools should work.
 
 Connect everything according to the above pinout (boot1 and boot0 are not needed if you set the maple mini to flash mode using the buttons) 
 
-
+**Flashing the firmware:**
+1. Drop a .ben file onto "JoeyFirmwareTool.exe", this will produce a file called "JoeyFirmware.bin"
+2. Find out what com port your flashing tool is (for this example i will be using COM8)
+3. open commandline and navigate to your stm32flash folder
+4. run `stm32flash -w JoeyFirmware.bin -v -g 0x0 COM8' and your maple mini will be flashed.
+5. That's it, you're done!
 
 #### STM32F103C8T6
+
+**Pinout:**
+
+| STM32F103C8T6 | CP2102 |
+|------------|------------|
+| Pin 31 | GND |
+| Pin 43 | TXD |
+| Pin 42 | RXD |
+| Pin 32 | 3.3V |
+| Pin 61 | 3.3V |
+| Pin 28 | GND |
+
+**Flashing the firmware:**
+1. Drop a .ben file onto "JoeyFirmwareTool.exe", this will produce a file called "JoeyFirmware.bin"
+2. Find out what com port your flashing tool is (for this example i will be using COM8)
+3. open commandline and navigate to your stm32flash folder
+4. run `stm32flash -w JoeyFirmware.bin -v -g 0x0 COM8' and your maple mini will be flashed.
+5. That's it, you're done!
 
 # Custom Signed Driver
 
