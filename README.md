@@ -52,7 +52,7 @@ Connect everything according to the above pinout (boot1 and boot0 are not needed
 1. Drop a .ben file onto "JoeyFirmwareTool.exe", this will produce a file called "JoeyFirmware.bin"
 2. Find out what com port your flashing tool is (for this example i will be using COM8)
 3. open commandline and navigate to your stm32flash folder
-4. run `stm32flash -w JoeyFirmware.bin -v -g 0x0 COM8` and your maple mini will be flashed.
+4. run `stm32flash -w JoeyFirmware.bin -v -g 0x0 COM8` and your STM32F103C8T6 will be flashed.
 5. That's it, you're done!
 
 # Custom Signed Driver
