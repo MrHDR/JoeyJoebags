@@ -26,7 +26,7 @@ Port: COM# (Maple Mini)" ##Where # is the COM number of your device
 
 [Video Guide](https://www.youtube.com/watch?v=m3snxbclFE0)
 
-#### Hardware Flashing (If the maple mini does not have 
+#### Hardware Flashing (If the maple mini does not have the default bootloader)
 
 **Required Software:**
 - [JoeyFirmwareTool](https://github.com/HDR/JoeyJoebags/releases)
