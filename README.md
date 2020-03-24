@@ -3,6 +3,31 @@ Tools, firmware and software for the JoeyJoebags
 
 ### Firmware Flashing
 
+#### Software Flashing (Arduino ide)
+
+**Required Software:**
+- [Arduino IDE](https://www.arduino.cc/en/main/software)
+- [Arduino_STM32](https://github.com/rogerclarkmelbourne/Arduino_STM32/wiki/Installation)
+
+**Flashing the firmware:**
+1. Open "JoeyBootloader.ino" in the Arduino IDE
+2. Connect the maple mini over usb
+3. Under "Tools" select the following options:
+```
+Board: "Maple Mini"
+Bootloader version: "Original (17k RAM, 108k Flash)"
+CPU Speed(MHz): "48MHz (Slow - with USB)"
+Optimize: "Smallest (default)"
+Port: COM# (Maple Mini)" ##Where # is the COM number of your device
+```
+
+4. Click Upload and open the serial monitor
+5. That's it, you're done
+
+[Video Guide](https://www.youtube.com/watch?v=m3snxbclFE0)
+
+#### Hardware Flashing (If the maple mini does not have 
+
 **Required Software:**
 - [JoeyFirmwareTool](https://github.com/HDR/JoeyJoebags/releases)
 - [stm32flash](https://sourceforge.net/projects/stm32flash/)
