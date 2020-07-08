@@ -1,6 +1,8 @@
 # JoeyJoebags
 Tools, firmware and software for the JoeyJoebags
 
+**Please note that this section is to help users fix broken devices, no support will be provided beyond this readme**
+
 ### Firmware Flashing
 
 #### Software Flashing (Arduino ide)
