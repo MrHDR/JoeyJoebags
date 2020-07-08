@@ -1,4 +1,6 @@
-# A 1 to 1 clone of the original Gen3 PCB
+# Joey Gen 3 Replacement PCB
+
+**Please note that these are only meant as replacements to fix broken devices**
 
 
 ## Images
