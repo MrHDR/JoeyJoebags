@@ -1,3 +1,3 @@
 # Joey Gen 3 Replacement PCBs
 
-**Please note that these are only meant as replacements to fix broken devices for users that bought a joey gen3 from BennVenn, No support or bill of materials will be provided**
+**These have been removed as people were abusing them, if anyone has a joey with a broken board, you can message me and i'll see if i can help.**
