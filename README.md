@@ -68,12 +68,12 @@ Connect everything according to the above pinout (boot1 and boot0 are not needed
 
 | STM32F103C8T6 | CP2102 |
 |------------|------------|
-| Pin 31 | GND |
-| Pin 43 | TXD |
-| Pin 42 | RXD |
-| Pin 32 | 3.3V |
-| Pin 61 | 3.3V |
-| Pin 28 | GND |
+| Pin 47 | GND |
+| Pin 30 | TXD |
+| Pin 31 | RXD |
+| Pin 48 | 3.3V |
+| Pin 45 | 3.3V |
+| Pin 20 | GND |
 
 **Flashing the firmware:**
 1. Drop a .ben file onto "JoeyFirmwareTool.exe", this will produce a file called "JoeyFirmware.bin"
