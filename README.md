@@ -72,7 +72,7 @@ Connect everything according to the above pinout (boot1 and boot0 are not needed
 | Pin 30 | TXD |
 | Pin 31 | RXD |
 | Pin 48 | 3.3V |
-| Pin 45 | 3.3V |
+| Pin 44 | 3.3V |
 | Pin 20 | GND |
 
 **Flashing the firmware:**
